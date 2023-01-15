@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
 body{
     width: 1200px;
+    position: absolute;
 }
 header{
-    
+    padding-top:0.1px;
     width: 1510px;
     height: 1000px;
-   
     background: rgba(255, 144, 14, 0.1);
 }
 /* nav style */
@@ -33,6 +33,9 @@ nav ul{
     
     
 }
+main{
+    position: absolute;
+}
 
 /* header banner */
 .child-1{
@@ -50,13 +53,16 @@ nav ul{
     line-height: 50px;
     
 }
-.child-1 button{
-    margin-left: 246px;
+
+button{
+    
     padding: 15px;
     border-radius: 10px;
     color: white;
     background-color: rgb(255, 136, 0);
-
+}
+.child-1 button{
+    margin-left: 246px;
 }
 .container img{
     position: absolute;
@@ -74,10 +80,34 @@ nav ul{
 }
 .images-features{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,5fr);
 
 }
-.child-2{
-    margin-left: 500px;
+.images{
+    width: 360px;
+    height: 360px ;
+    gap: 100px;
 }
+/* quick list */
+.child-2{
+    margin-left: 50px;
+    margin-top: 250px;
+    
+}
+.h-2{
+    font-size: 30px;
+    color: gray;
+}
+.h-3{
+    font-size: 30px;
+}
+.h-4{
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+}
+.h-5{
+    
+    color:gray;
+}
+
 
