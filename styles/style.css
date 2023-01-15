@@ -77,8 +77,18 @@ button{
 }
 .images-features{
     display: grid;
-    grid-template-columns: repeat(2,5fr);
+    grid-template-columns: repeat(2,1fr);
 
+}
+@media only screen and (max-width:688px) {
+    .quick-features{
+        flex-direction: column;
+    }
+    .images-features{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
 .images{
     width: 360px;
@@ -136,6 +146,15 @@ button{
     top: 2245px;
     
 }
+@media only screen and (max-width:688px) {
+    .loved-features{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .images-2{
+        height: 10px;
+    }
+}
 .button-enjoy{
     margin-left: 650px;
     margin-top: 160px;
@@ -158,6 +177,13 @@ button{
     margin-left: 320px;
     margin-top: 100px; 
 
+}
+@media only screen and (max-width:688px){
+    .icons{
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 20px;
+    }
 }
 .icons-1{
     width: 100%;
